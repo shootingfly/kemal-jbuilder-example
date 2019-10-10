@@ -1,0 +1,13 @@
+name: kemal-jbuilder-example
+version: 0.1.0
+
+authors:
+  - 谢非 <xiefei@yolanda.hk>
+
+targets:
+  kemal-jbuilder-example:
+    main: src/kemal-jbuilder-example.cr
+
+crystal: 0.31.1
+
+license: MIT
