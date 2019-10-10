@@ -1,6 +1,10 @@
-# TODO: Write documentation for `Kemal::Jbuilder::Example`
-module Kemal::Jbuilder::Example
-  VERSION = "0.1.0"
+require "kemal"
+require "kilt/jbuilder"
 
-  # TODO: Put your code here
+get "/" do |env|
+  env.response.content_type = "application/json"
+  say_hello = "Hello,Jbuilder!"
+  render "src/test.jbuilder"
 end
+
+Kemal.run

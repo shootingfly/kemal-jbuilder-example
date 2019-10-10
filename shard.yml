@@ -6,8 +6,18 @@ authors:
 
 targets:
   kemal-jbuilder-example:
-    main: src/kemal-jbuilder-example.cr
+    main: src/kemal-jbuilder-example.cr  
 
 crystal: 0.31.1
 
 license: MIT
+
+dependencies:
+  jbuilder:
+    github: shootingfly/jbuilder
+    branch: support_kilt
+  kilt:
+    github: shootingfly/kilt
+    branch: support_jbuilder
+  kemal:
+    github: kemalcr/kemal
