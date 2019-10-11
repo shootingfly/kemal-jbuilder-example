@@ -15,7 +15,6 @@ license: MIT
 dependencies:
   jbuilder:
     github: shootingfly/jbuilder
-    branch: support_kilt
   kilt:
     github: shootingfly/kilt
     branch: support_jbuilder
