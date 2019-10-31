@@ -2,7 +2,7 @@ name: kemal-jbuilder-example
 version: 0.1.0
 
 authors:
-  - 谢非 <xiefei@yolanda.hk>
+  - Shootingfly <xiefei@yolanda.hk>
 
 targets:
   kemal-jbuilder-example:
@@ -16,7 +16,7 @@ dependencies:
   jbuilder:
     github: shootingfly/jbuilder
   kilt:
-    github: shootingfly/kilt
-    branch: support_jbuilder
+    github: jeromegn/kilt
+    branch: master
   kemal:
     github: kemalcr/kemal

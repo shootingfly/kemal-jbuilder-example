@@ -6,15 +6,15 @@ shards:
 
   jbuilder:
     github: shootingfly/jbuilder
-    commit: a9b43d4769c1a841bc2afd21cef69b94a99a9294
+    version: 0.2.0
 
   kemal:
     github: kemalcr/kemal
     version: 0.26.0
 
   kilt:
-    github: shootingfly/kilt
-    commit: fdddfda25733d587d9315679740c228cc06c0d77
+    github: jeromegn/kilt
+    commit: d2c3c6b5bafcf8d101994f5c5528143ef2a34a23
 
   radix:
     github: luislavena/radix
